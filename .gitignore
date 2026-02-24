@@ -1,0 +1,54 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+
+# ---- Virtual Environment ----
+venv/
+env/
+ENV/
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- Jupyter ----
+.ipynb_checkpoints
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Logs ----
+*.log
+
+# ---- Environment variables ----
+.env
+
+# ---- Project outputs (DO NOT TRACK GENERATED DATA) ----
+data/raw/*
+data/processed/*
+reports/profile/*
+reports/plots/*
+
+# keep folders but ignore contents
+!data/raw/.keep
+!data/processed/.keep
+!reports/profile/.keep
+!reports/plots/.keep
+
+# ---- Testing ----
+.pytest_cache/
+.coverage
+htmlcov/
